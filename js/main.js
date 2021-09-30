@@ -44,3 +44,5 @@ button.addEventListener('click', (e) => {
 	atc.innerText = `${parseFloat(generalAmountTransfer / generalCountTransfer).toFixed(2)}$`;
 
 })
+
+//asdasd
