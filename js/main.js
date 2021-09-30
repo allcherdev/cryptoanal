@@ -41,6 +41,6 @@ button.addEventListener('click', (e) => {
 	tAmount.innerText = `${generalAmountTransfer.toLocaleString('en-US')}$`;
 	let a = generalCountTransfer / generalAmountTransfer;
 	
-	atc.innerText = `${parseFloat(generalCountTransfer / generalAmountTransfer).toFixed(2)}$`;
+	atc.innerText = `${parseFloat(generalAmountTransfer / generalCountTransfer).toFixed(2)}$`;
 
 })
